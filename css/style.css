@@ -1,0 +1,166 @@
+/* #wrapper{
+    width: 900px;
+    margin: 0 20% 0 20%;
+    border: 2px solid #ccc;
+
+}
+#header{
+    height: 250px;
+    background-color: #ccc
+    
+
+}
+
+#nav{
+    height: 50px;
+    background-color: #777;
+}
+
+#content{
+    
+}
+#main_content{
+    width: 550px;
+    min-height: 400px ;
+    float: left;
+}
+#sidebar{
+    width: 350px;
+    min-height: 400px ;
+    float: right;
+    background-color: #eee;
+}
+#footer{
+    height: 75px;
+    background-color: #ccc;
+}
+.clear{
+    clear: both;
+}
+h1{
+    /* text-align: center; */
+    /* margin: auto; */
+    /* width: 300px; */
+    
+/* } */
+
+
+/* .flexbox-container{
+ display: flex;
+ width: auto;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: yellow;
+    justify-content: space-around;
+}
+
+
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+}
+
+.flexbox-item-2{
+    min-height: 200px;
+} */
+
+.flexbox-item-3{
+    min-height: 300px;
+}
+
+/* #box{
+    width: auto ;
+    height: auto;
+    display: inline-block; 
+} */
+/* div {
+    display: inline-block;
+    /* crops images */
+    /* overflow: hidden;
+    width: 100px;
+    height: 100px;
+    /* makes abs positioned images stay inside container */
+    /* position: relative; */
+/* } */ 
+
+/* #box {
+    display: inline-block;
+    position: absolute;
+    /* center the image */
+    /* left: 50%;
+    height: 50% */
+/* }
+#txtSearch{
+    margin: 0 auto;
+    display: inline-block;
+} */ 
+
+
+/* .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-shrink: 10;
+} */
+
+.wrapper
+    {
+        margin-left: 25%;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 400px 300px 300px;
+        grid-gap: 10px;
+        background-color: white;
+       
+    }
+
+    .circle{
+        
+            height: 25px;
+            width: 25px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+          }
+    
+
+.wrapper img{
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+    }
+
+
+
+    /*for rating/*
+
+    #rating_bar {
+  width: 100px;
+  height: 100px;
+  margin: 4px 175px !important;
+  display: inline-block;
+  display: inline;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+#rating_bar>span:before {
+  content: 'O';
+  color: #c7c5c5;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 3em;
+}
+
+#rating_bar>span:hover:before,
+#rating_bar span:hover~span:before {
+  color: #4bce32;
+}
